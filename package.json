@@ -1,0 +1,32 @@
+{
+  "name": "lobster-web-interface",
+  "version": "1.0.0",
+  "description": "Web interface for lobster movie/TV show script",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && node server.js"
+  },
+  "keywords": [
+    "lobster",
+    "movies",
+    "tv-shows",
+    "react",
+    "streaming"
+  ],
+  "author": "lobster-user",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^24.11.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

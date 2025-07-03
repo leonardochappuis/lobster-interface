@@ -1,0 +1,2515 @@
+
+> lobster-web-interface@1.0.0 dev
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > lobster-web-interface@1.0.0 client
+[1] > cd client && npm run dev
+[1] 
+[0] 
+[0] > lobster-web-interface@1.0.0 server
+[0] > cd server && node server.js
+[0] 
+[1] 
+[1] > client@0.0.0 dev
+[1] > vite
+[1] 
+[0] Connected to SQLite database
+[0] Database tables initialized
+[0] Lobster Web Interface server running on port 5000
+[1] 
+[1]   VITE v7.0.0  ready in 156 ms
+[1] 
+[1]   ➜  Local:   http://localhost:5173/
+[1]   ➜  Network: use --host to expose
+[1] /*! 🌼 daisyUI 5.0.43 */
+[1] 🔵 Proxying request: GET /api/settings
+[1] 🔵 Proxying request: GET /api/tv/93405
+[1] 🔵 Proxying request: GET /api/lists
+[1] 🔵 Proxying request: GET /api/tv/93405/recommendations
+[1] 🔵 Proxying request: GET /api/tv/93405/videos
+[1] 🔵 Proxying request: GET /api/favorites/93405/tv
+[1] 🔵 Proxying request: GET /api/watched/93405/tv
+[1] 🔵 Proxying request: GET /api/lobster/search/Squid%20Game
+[1] 🔵 Proxying request: GET /api/lobster/seasons/72172
+[1] 🔵 Proxying request: GET /api/lobster/episodes/63706
+[1] 🔵 Proxying request: POST /api/lobster/sources
+[1] 🔵 Proxying request: POST /api/watched
+[0] ✅ Marked as watched: Squid Game - S1E1
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fdewflare60.xyz%2Ffile1%2F7qjKdNjEwncQ6fuyAHxuch7tHjGyj7gOYDmZlO54OFSc4cUfZ7bK1rB0k4jWjIptqtRSfZNpiFtc9jVK%2B1HZFWXDr4Zz6gTo99yDfYDGtvM4mbKzVaf6DpCFexN4MqjIenfax0OAbx6lvf4h4HDpIrxwRwo6TVUdsPz9zoACkEk%3D%2FcGxheWxpc3QubTN1OA%3D%3D.m3u8
+[0] 🔍 Incoming request: GET /smart-proxy - Query: {
+[0]   url: 'https://dewflare60.xyz/file1/7qjKdNjEwncQ6fuyAHxuch7tHjGyj7gOYDmZlO54OFSc4cUfZ7bK1rB0k4jWjIptqtRSfZNpiFtc9jVK+1HZFWXDr4Zz6gTo99yDfYDGtvM4mbKzVaf6DpCFexN4MqjIenfax0OAbx6lvf4h4HDpIrxwRwo6TVUdsPz9zoACkEk=/cGxheWxpc3QubTN1OA==.m3u8'
+[0] }
+[0] 🧠 Smart proxy request received for: https://dewflare60.xyz/file1/7qjKdNjEwncQ6fuyAHxuch7tHjGyj7gOYDmZlO54OFSc4cUfZ7bK1rB0k4jWjIptqtRSfZNpiFtc9jVK+1HZFWXDr4Zz6gTo99yDfYDGtvM4mbKzVaf6DpCFexN4MqjIenfax0OAbx6lvf4h4HDpIrxwRwo6TVUdsPz9zoACkEk=/cGxheWxpc3QubTN1OA==.m3u8
+[0] /home/beuz/clonelobster/lobster/server/server.js:1285
+[0]   if (isMainManifest && isKnownProblematic) {
+[0]   ^
+[0] 
+[0] ReferenceError: isMainManifest is not defined
+[0]     at /home/beuz/clonelobster/lobster/server/server.js:1285:3
+[0]     at Layer.handle [as handle_request] (/home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/layer.js:95:5)
+[0]     at next (/home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/route.js:149:13)
+[0]     at Route.dispatch (/home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/route.js:119:3)
+[0]     at Layer.handle [as handle_request] (/home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/layer.js:95:5)
+[0]     at /home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/index.js:284:15
+[0]     at Function.process_params (/home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/index.js:346:12)
+[0]     at next (/home/beuz/clonelobster/lobster/server/node_modules/express/lib/router/index.js:280:10)
+[0]     at SendStream.error (/home/beuz/clonelobster/lobster/server/node_modules/serve-static/index.js:121:7)
+[0]     at SendStream.emit (node:events:507:28)
+[0] 
+[0] Node.js v23.1.0
+[1] 🔵 Proxying request: GET /api/watched/93405/tv
+[1] 🔴 Smart proxy error: Error: socket hang up
+[1]     at Socket.socketOnEnd (node:_http_client:530:25)
+[1]     at Socket.emit (node:events:519:35)
+[1]     at endReadableNT (node:internal/streams/readable:1696:12)
+[1]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[1]   code: 'ECONNRESET'
+[1] }
+[0] npm run server exited with code 1
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fdewflare60.xyz%2Ffile1%2F7qjKdNjEwncQ6fuyAHxuch7tHjGyj7gOYDmZlO54OFSc4cUfZ7bK1rB0k4jWjIptqtRSfZNpiFtc9jVK%2B1HZFWXDr4Zz6gTo99yDfYDGtvM4mbKzVaf6DpCFexN4MqjIenfax0OAbx6lvf4h4HDpIrxwRwo6TVUdsPz9zoACkEk%3D%2FcGxheWxpc3QubTN1OA%3D%3D.m3u8
+[1] Error: socket hang up
+[1]     at Socket.socketOnEnd (node:_http_client:530:25)
+[1]     at Socket.emit (node:events:519:35)
+[1]     at endReadableNT (node:internal/streams/readable:1696:12)
+[1]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[1] 🔴 Proxy error: Error: read ECONNRESET
+[1]     at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+[1]   errno: -104,
+[1]   code: 'ECONNRESET',
+[1]   syscall: 'read'
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /api/watched/93405/tv
+[1] Error: read ECONNRESET
+[1]     at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fara-6.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-36.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-37.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhrv-18.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fcze-7.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fara-6.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-36.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdut-25.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-12.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdan-8.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-37.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhrv-18.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-4.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-11.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fcze-7.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffin-15.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdut-25.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-12.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdan-8.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffre-16.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fger-9.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fgre-10.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-4.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-11.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fheb-17.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffin-15.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhun-19.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Find-20.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffre-16.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fger-9.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fgre-10.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fita-21.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fjpn-22.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-3.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fheb-17.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-5.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhun-19.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Find-20.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fmay-23.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fnob-24.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fita-21.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fjpn-22.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpol-26.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-27.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-3.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-28.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-5.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frum-29.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fmay-23.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fnob-24.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frus-30.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-13.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpol-26.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-27.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-14.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fswe-31.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-28.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frum-29.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftha-32.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frus-30.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-13.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftur-33.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fukr-34.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-12.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-14.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fswe-31.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftha-32.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftur-33.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fukr-34.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:41 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-12.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fdewflare60.xyz%2Ffile1%2F7qjKdNjEwncQ6fuyAHxuch7tHjGyj7gOYDmZlO54OFSc4cUfZ7bK1rB0k4jWjIptqtRSfZNpiFtc9jVK%2B1HZFWXDr4Zz6gTo99yDfYDGtvM4mbKzVaf6DpCFexN4MqjIenfax0OAbx6lvf4h4HDpIrxwRwo6TVUdsPz9zoACkEk%3D%2FcGxheWxpc3QubTN1OA%3D%3D.m3u8
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:43:42 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fdewflare60.xyz%2Ffile1%2F7qjKdNjEwncQ6fuyAHxuch7tHjGyj7gOYDmZlO54OFSc4cUfZ7bK1rB0k4jWjIptqtRSfZNpiFtc9jVK%2B1HZFWXDr4Zz6gTo99yDfYDGtvM4mbKzVaf6DpCFexN4MqjIenfax0OAbx6lvf4h4HDpIrxwRwo6TVUdsPz9zoACkEk%3D%2FcGxheWxpc3QubTN1OA%3D%3D.m3u8
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fara-6.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-36.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-37.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fara-6.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-36.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fchi-37.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhrv-18.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fcze-7.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdan-8.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhrv-18.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdut-25.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-12.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fcze-7.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdan-8.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffin-15.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-4.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffre-16.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-11.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fdut-25.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-12.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fger-9.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fgre-10.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffin-15.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-4.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fheb-17.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhun-19.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ffre-16.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Feng-11.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Find-20.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fger-9.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fgre-10.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fheb-17.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fhun-19.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Find-20.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fita-21.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fita-21.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fjpn-22.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-3.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-5.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fmay-23.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fjpn-22.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fnob-24.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-3.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpol-26.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fkor-5.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-27.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fmay-23.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-28.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frum-29.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fnob-24.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frus-30.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpol-26.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-13.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-27.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fpor-28.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frum-29.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-14.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fswe-31.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Frus-30.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-13.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fspa-14.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fswe-31.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftha-32.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftur-33.vtt
+[1] 🔵 Smart proxying request: GET /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fukr-34.vtt
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftha-32.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Proxying request: GET /api/favorites
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Ftur-33.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Smart proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /smart-proxy?url=https%3A%2F%2Fcca.megafiles.store%2Fde%2F2b%2Fde2b04afeb6f459907b63e85098bb2e7%2Fukr-34.vtt
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:13 PM [vite] http proxy error: /api/favorites
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Proxying request: GET /api/favorites
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:14 PM [vite] http proxy error: /api/favorites
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Proxying request: GET /api/trending/all/day?page=1
+[1] 🔵 Proxying request: GET /api/movies/popular
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:17 PM [vite] http proxy error: /api/trending/all/day?page=1
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Proxying request: GET /api/tv/popular
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:17 PM [vite] http proxy error: /api/movies/popular
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:17 PM [vite] http proxy error: /api/tv/popular
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Proxying request: GET /api/favorites
+[1] 🔵 Proxying request: GET /api/trending/all/week
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:17 PM [vite] http proxy error: /api/favorites
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 2:44:17 PM [vite] http proxy error: /api/trending/all/week
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 🔵 Proxying request: GET /api/trending/all/day?page=1
+[1] 🔵 Proxying request: GET /api/movies/popular
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:18 PM [vite] http proxy error: /api/trending/all/day?page=1
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔵 Proxying request: GET /api/tv/popular
+[1] 🔵 Proxying request: GET /api/trending/all/week
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:18 PM [vite] http proxy error: /api/movies/popular
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:18 PM [vite] http proxy error: /api/tv/popular
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] 🔴 Proxy error: AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7) {
+[1]   code: 'ECONNREFUSED',
+[1]   [errors]: [
+[1]     Error: connect ECONNREFUSED ::1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '::1',
+[1]       port: 5000
+[1]     },
+[1]     Error: connect ECONNREFUSED 127.0.0.1:5000
+[1]         at createConnectionError (node:net:1656:14)
+[1]         at afterConnectMultiple (node:net:1686:16) {
+[1]       errno: -111,
+[1]       code: 'ECONNREFUSED',
+[1]       syscall: 'connect',
+[1]       address: '127.0.0.1',
+[1]       port: 5000
+[1]     }
+[1]   ]
+[1] }
+[1] 2:44:18 PM [vite] http proxy error: /api/trending/all/week
+[1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1128:18)
+[1]     at afterConnectMultiple (node:net:1693:7)
+[1] npm run client exited with code SIGHUP

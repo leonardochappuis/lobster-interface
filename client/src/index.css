@@ -1,0 +1,160 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: dark --default, light --prefersdark, cyberpunk, synthwave, retro, valentine, halloween, aqua, lofi, black, luxury, dracula, business, night, coffee, dim;
+  prefix: "";
+  logs: true;
+}
+
+/* Base styles for better defaults */
+html,
+body {
+  @apply font-sans antialiased h-full;
+}
+
+#root {
+  @apply h-full;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-base-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-base-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-base-content/30;
+}
+
+/* Smooth transitions for theme changes */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Fix for cursor flickering - ensure consistent cursor behavior */
+.media-card-link {
+  @apply cursor-pointer;
+}
+
+.media-card-link * {
+  cursor: inherit;
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+/* Custom gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+}
+
+/* Glass morphism effect */
+.glass {
+  @apply backdrop-blur-md bg-base-100/80 border border-base-300/20;
+}
+
+/* Custom loading animation */
+.loading-dots {
+  @apply flex items-center justify-center space-x-1;
+}
+
+.loading-dots div {
+  @apply w-2 h-2 bg-primary rounded-full animate-bounce;
+}
+
+.loading-dots div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loading-dots div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+/* Video player improvements */
+iframe {
+  @apply rounded-lg;
+}
+
+/* Media card hover effects */
+.media-card {
+  @apply transition-all duration-300 ease-out;
+}
+
+.media-card:hover {
+  @apply scale-105 shadow-2xl;
+}
+
+/* Custom focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-base-100;
+}
+
+/* Responsive text */
+.text-responsive {
+  @apply text-sm sm:text-base lg:text-lg;
+}
+
+/* Background patterns */
+.bg-grid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom shadows */
+.shadow-glow {
+  box-shadow: 0 0 20px rgba(var(--primary), 0.3);
+}
+
+/* Hero section styling */
+.hero-bg {
+  @apply bg-gradient-to-br from-base-200 via-base-100 to-base-300;
+}
+
+/* Navigation improvements */
+.nav-link {
+  @apply relative overflow-hidden;
+}
+
+.nav-link::after {
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  content: '';
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  @apply w-full;
+}
